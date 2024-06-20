@@ -15,8 +15,11 @@ const Table: React.FC<TableProps> = ({ data, columns }) => {
   return (
     <div className="overflow-x-auto">
       <div className="mb-2">
-        <button onClick={() => handleColumnChange('payer')} className="mr-2">Toggle Payer</button>
-        {/* Add more column toggle buttons as needed */}
+        {columns.map(col => (
+          <button key={col} onClick={() => handleColumnChange(col)} className="mr-2">
+            Toggle {col}
+          </button>
+        ))}
       </div>
       <table className="min-w-full bg-white">
         <thead>

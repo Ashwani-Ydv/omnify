@@ -1,4 +1,4 @@
-"use client"; // Add this to enable client-side functionality
+"use client";
 
 import React, { useState } from 'react';
 
@@ -10,7 +10,7 @@ const SidePanel: React.FC = () => {
   };
 
   return (
-    <div className={`${isCollapsed ? 'w-16' : 'w-64'} bg-gray-800 text-white h-full transition-width duration-300`}>
+    <div className={`${isCollapsed ? 'w-16' : 'w-64'} bg-gray-800 text-white h-100 transition-width duration-300`}>
       <button onClick={handleCollapse} className="p-2 focus:outline-none">
         {isCollapsed ? 'Expand' : 'Collapse'}
       </button>

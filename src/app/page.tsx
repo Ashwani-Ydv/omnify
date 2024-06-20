@@ -9,6 +9,14 @@ import SidePanel from '../components/SidePanel';
 const mockData = [
   { CreatedOn: '2024-01-01', Payer: 'John Doe', Status: 'Active', Email: 'john@example.com', PayerPhone: '1234567890', Services: 'Service 1', Scheduled: '2024-01-02' },
   { CreatedOn: '2024-01-02', Payer: 'Jane Smith', Status: 'Inactive', Email: 'jane@example.com', PayerPhone: '0987654321', Services: 'Service 2', Scheduled: '2024-01-03' },
+  { CreatedOn: '2024-01-01', Payer: 'John Doe', Status: 'Active', Email: 'john@example.com', PayerPhone: '1234567890', Services: 'Service 1', Scheduled: '2024-01-02' },
+  { CreatedOn: '2024-01-02', Payer: 'Jane Smith', Status: 'Inactive', Email: 'jane@example.com', PayerPhone: '0987654321', Services: 'Service 2', Scheduled: '2024-01-03' },
+  { CreatedOn: '2024-01-01', Payer: 'John Doe', Status: 'Active', Email: 'john@example.com', PayerPhone: '1234567890', Services: 'Service 1', Scheduled: '2024-01-02' },
+  { CreatedOn: '2024-01-02', Payer: 'Jane Smith', Status: 'Inactive', Email: 'jane@example.com', PayerPhone: '0987654321', Services: 'Service 2', Scheduled: '2024-01-03' },
+  { CreatedOn: '2024-01-01', Payer: 'John Doe', Status: 'Active', Email: 'john@example.com', PayerPhone: '1234567890', Services: 'Service 1', Scheduled: '2024-01-02' },
+  { CreatedOn: '2024-01-02', Payer: 'Jane Smith', Status: 'Inactive', Email: 'jane@example.com', PayerPhone: '0987654321', Services: 'Service 2', Scheduled: '2024-01-03' },
+  { CreatedOn: '2024-01-01', Payer: 'John Doe', Status: 'Active', Email: 'john@example.com', PayerPhone: '1234567890', Services: 'Service 1', Scheduled: '2024-01-02' },
+  { CreatedOn: '2024-01-02', Payer: 'Jane Smith', Status: 'Inactive', Email: 'jane@example.com', PayerPhone: '0987654321', Services: 'Service 2', Scheduled: '2024-01-03' },
   // Add more mock data here
 ];
 
