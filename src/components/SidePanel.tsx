@@ -18,7 +18,7 @@ const SidePanel: React.FC = () => {
   return (
     <div className={`${isCollapsed ? 'w-16' : 'w-64'} bg-gray-100 text-gray-800 font-medium h-screen fixed transition-width duration-300`}>
       <button onClick={handleCollapse} className="p-2 focus:outline-none">
-        {isCollapsed ? (<img className='h-6 w-6' src={collapse.src} alt ="expand" />) :(<div className='flex'><img src={rectangle.src} />&nbsp;<h1>Front-desk</h1><img className='ml-8 h-6 w-6' src={collapse.src} alt ="expand" /></div>)}
+        {isCollapsed ? (<img className='h-6 w-6' src={collapse.src} alt ="expand" />) :(<div className='flex'><img src={collapse.src} />&nbsp;<h1>Front-desk</h1><img className='ml-8 h-6 w-6' src={collapse.src} alt ="expand" /></div>)}
       </button>
       {!isCollapsed?(
         <ul>
